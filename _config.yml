@@ -17,9 +17,9 @@
 # email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/travel" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://example.com" # the base hostname & protocol for your site
+# twitter_username: jekyllrb
+# github_username:  jekyll
 
 # Build settings
 markdown: kramdown
