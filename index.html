@@ -1,0 +1,333 @@
+<DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <link rel="shortcut icon" href="./images/backpack.ico">
+
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Slab:400,300,100,600' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:100,400,300' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust</title>
+  </head>
+
+<body>
+
+<!-- Start top third/////////////////////////// -->
+
+<section class="top_third">
+
+  <nav class="left-nav">
+    <ul class="flex-container-nav">
+      <li><p><img class="logo" src="./images/backpack_icon.png" alt="backpack_icon">WANDERLUST</p></li>
+    </ul>
+  </nav>
+
+  <nav class="right-nav">
+    <ul class="flex-container-nav">
+      <li><img class="icon" src="./images/search_icon.png" alt="search_icon"></li>
+      <li><img class="icon" src="./images/menu_icon.png" alt="menu_icon"></li>
+    </ul>
+  </nav>
+
+  <h2>unleash your inner explorer.</h2>
+
+
+<!-- TAB SECTION ///////////////////////////////////////// -->
+
+
+
+
+
+
+<div class="tabs">
+  
+  <input id="tab1" type="radio" name="tabs" checked>
+  <label for="tab1"><p>FLIGHTS</p></label>
+    
+  <input id="tab2" type="radio" name="tabs">
+  <label for="tab2"><p>LODGING</p></label>
+    
+  <input id="tab3" type="radio" name="tabs">
+  <label for="tab3"><p>CARS</p></label>
+   
+<section class="content" id="content1">    
+  <section id="content1">
+    <p>
+      <div class="tab-content"> 
+       <ul class="tab-container">
+           <li id="round-trip"><p>round trip</p></li>
+           <li><p>one-way</p></li>
+           <li><p>multi-city</p></li>
+           <li><p>show flexible dates</p></li>
+        </ul>
+
+        <section class="choices">
+        <ul class="tab-container">  
+           <li><p>flying from</p>
+           <input type="text" name="fname" placeholder="city name or airport code"></li>
+           
+           <li><p>flying to</p>
+           <input type="text" name="fname" placeholder="city name or airport code"></li>
+           
+           <li><p>departing</p>
+           <input type="date" name="date" required placeholder="depart"></li>
+           
+           <li><p>returning</p>
+           <input type="date" name="date" required placeholder="return"></li>
+
+           <li><p>adults</p>
+            <label class="select-style">
+              <select>
+               <option disabled selected>1</option>
+               <option value="Option 1">1</option>
+               <option value="Option 1">2</option>
+               <option value="Option 2">3</option>
+               <option value="Option 3">4</option>
+               <option value="Option 4">5</option>
+               <option value="Option 5">6</option>
+              </select>
+            </label>
+           </li>
+           
+           <li><p>children</p>
+            <label class="select-style">
+              <select>
+               <option disabled selected>0</option>
+               <option value="Option 1">1</option>
+               <option value="Option 1">2</option>
+               <option value="Option 2">3</option>
+               <option value="Option 3">4</option>
+               <option value="Option 4">5</option>
+               <option value="Option 5">6</option>
+              </select>
+            </label>
+           </li>
+           
+           <li><input type="submit" value="search" class="search"></li>
+        </ul>
+        </section>
+
+      </div>
+    </p>
+  </section>
+</section>
+    
+<section class="content" id="content2">    
+  <section id="content2">
+     <div class="tab-content"> 
+<!--        <ul class="tab-container">
+           <div id="hidden">
+           <li><p>hidden content</p></li>
+           </div>
+        </ul> -->
+        <section class="choices">
+        <ul class="tab-container">  
+          <li><p>destination</p>
+           <input type="text" name="fname" placeholder="city or hotel name"></li>
+           <li><p>check-in</p>
+           <input type="date" name="date" required placeholder="depart"></li> 
+           <li><p>check-out</p>
+           <input type="date" name="date" required placeholder="return"></li>
+
+
+          <li><p>rooms</p>
+            <label class="select-style">
+              <select>
+               <option disabled selected>1</option>
+               <option value="Option 1">1</option>
+               <option value="Option 1">2</option>
+               <option value="Option 2">3</option>
+               <option value="Option 3">4</option>
+               <option value="Option 4">5</option>
+               <option value="Option 5">6</option>
+              </select>
+            </label>
+           </li>
+
+           <li><p>adults</p>
+            <label class="select-style">
+              <select>
+               <option disabled selected>1</option>
+               <option value="Option 1">1</option>
+               <option value="Option 1">2</option>
+               <option value="Option 2">3</option>
+               <option value="Option 3">4</option>
+               <option value="Option 4">5</option>
+               <option value="Option 5">6</option>
+              </select>
+            </label>
+           </li>
+           
+           <li><p>children</p>
+            <label class="select-style">
+              <select>
+               <option disabled selected>0</option>
+               <option value="Option 1">1</option>
+               <option value="Option 1">2</option>
+               <option value="Option 2">3</option>
+               <option value="Option 3">4</option>
+               <option value="Option 4">5</option>
+               <option value="Option 5">6</option>
+              </select>
+            </label>
+           </li>
+           
+           <li><input type="submit" value="search" class="search"></li>
+        </ul>
+        </section>
+      </div>
+  </section>
+</section>
+
+<section class="content" id="content3">    
+  <section id="content3">
+     <div class="tab-content"> 
+
+        <ul class="tab-container">  
+        <section class="choices">
+        <ul class="tab-container">  
+          <li><p>car pick up</p>
+           <input type="text" name="fname" placeholder="city, zipcode or airport"></li>
+           <li><p>car drop off</p>
+           <input type="text" name="fname" placeholder="city, zipcode or airport"></li>
+
+           <li><p>pick up day</p>
+           <input type="date" name="date" required placeholder="depart"></li> 
+
+            <li><p>pick up time</p>
+            <label class="select-style">
+              <select>
+               <option disabled selected>12:00pm</option>
+               <option value="Option 1">12:00pm</option>
+               <option value="Option 1">1:00pm</option>
+               <option value="Option 2">2:00pm</option>
+               <option value="Option 3">3:00pm</option>
+               <option value="Option 4">4:00pm</option>
+               <option value="Option 5">5:00pm</option>
+              </select>
+            </label>
+           </li>
+
+           <li><p>drop off day</p>
+           <input type="date" name="date" required placeholder="return"></li>
+
+          <li><p>drop off time</p>
+            <label class="select-style">
+              <select>
+               <option disabled selected>12:00pm</option>
+               <option value="Option 1">12:00pm</option>
+               <option value="Option 1">1:00pm</option>
+               <option value="Option 2">2:00pm</option>
+               <option value="Option 3">3:00pm</option>
+               <option value="Option 4">4:00pm</option>
+               <option value="Option 5">5:00pm</option>
+              </select>
+            </label>
+           </li>
+          </ul>
+          <ul class="tab-container"> 
+
+           <li><p>vehicle type</p>
+            <label class="select-style">
+              <select>
+               <option disabled selected>economy</option>
+               <option value="Option 1">economy</option>
+               <option value="Option 1">compacy</option>
+               <option value="Option 2">fullsize</option>
+               <option value="Option 3">premium</option>
+               <option value="Option 4">luxury</option>
+               <option value="Option 5">convertible</option>
+               <option value="Option 5">minivan</option>
+               <option value="Option 5">sports utility vehicle</option>
+              </select>
+            </label>
+           </li>
+           
+           <li><p>company</p>
+            <label class="select-style">
+              <select>
+               <option disabled selected>no preference</option>
+               <option value="Option 1">no preference</option>
+               <option value="Option 1">avis</option>
+               <option value="Option 2">budget</option>
+               <option value="Option 3">enterprise</option>
+               <option value="Option 4">hertz</option>
+               <option value="Option 5">thrifty</option>
+              </select>
+            </label>
+           </li>
+           
+           <li><input type="submit" value="search" class="search"></li>
+        </ul>
+        </section>
+        </ul>
+      </div>
+  </section>
+</section>
+    
+</div>
+    
+
+<!-- END TAB SECTION ///////////////////////////////////////// -->
+</section>
+
+<!-- end top third/////////////////////////// -->
+
+
+<!-- Start middle third/////////////////////////// -->
+
+<section class="middle_third">
+
+<div class="big-middle-container">
+  <ul class="deal-flex-container">
+    <li><img src="./images/airplane.png" alt="menu_icon"></li>
+    <li><p>Flexible departure? Compare prices to nearby dates.</p></li>
+  </ul>
+
+  <ul class="deal-flex-container">
+    <li><img src="./images/bike.png" alt="menu_icon"></li>
+    <li><p>From big name and boutique hotels to airbnb, find your perfect rental.</p></li>
+  </ul>
+
+  <ul class="deal-flex-container">
+    <li><img src="./images/van.png" alt="menu_icon"></li>
+    <li><p>Find the best rental car, train, bus or ferry to keep you moving.</p></li>
+  </ul>
+</div>
+
+</section>
+<!-- end middle third/////////////////////////// -->
+
+
+<!-- Start bottom third/////////////////////////// -->
+<section class="bottom_third">
+  <ul class="big-bottom-container">
+    <li><h3>havana, at last</h3></li>
+    <li><p>we have the deals to get you there.</p></li>
+    <li class="green-button"><p>browse deals</p></li>
+  </ul>
+</section>
+<!-- end middle third/////////////////////////// -->
+
+<footer>
+  <ul class="footer-container">
+    <li><p>About</p></li>
+    <li><p>Contact</p></li>
+    <li><p>Privacy</p></li>
+    <li><p>Help</p></li>
+  </ul>
+  <ul class="footer-container">
+    <li><p id="copyright"> &copy; 2016 Wanderlust Inc.</p></li>
+  </ul>
+</footer>
+
+</body>
+
+</html>
